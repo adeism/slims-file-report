@@ -12,5 +12,4 @@ use SLiMS\Plugins;
 // Register halaman di menu admin
 $plugin = Plugins::getInstance();
 $plugin->registerMenu('system', 'File Access Analysis', __DIR__ . '/page_file_analysis.php');
-$plugin->registerMenu('system', 'UIANA Analysis', __DIR__ . '/uiana_analysis.php');
 ?>
