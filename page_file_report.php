@@ -154,7 +154,7 @@ function showDaftarAksesFile($dbs) {
 
 
 // Main plugin execution
-$page_title = __('Files Report');
+$page_title = __('File Report');
 
 // Query for most active month
 $sql_bulan_aktif = "
