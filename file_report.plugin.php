@@ -12,5 +12,4 @@ use SLiMS\Plugins;
 // Register pages in the admin menu
 $plugin = Plugins::getInstance();
 $plugin->registerMenu('reporting', 'File Report', __DIR__ . '/page_file_report.php');
-$plugin->registerMenu('reporting', 'UIANA Report', __DIR__ . '/uiana_report.php');
 ?>
