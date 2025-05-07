@@ -2,6 +2,10 @@
 
 Plugin ini menampilkan laporan akses file yang berguna untuk menganalisis bagaimana file-file Anda diakses. Laporan ini mencakup jumlah akses per file, jumlah akses per koleksi, dan daftar lengkap akses file.
 
+> ⚠️ **Disclaimer**  
+> JANGAN langsung pasang DI SLiMS Operasional (tes di PC/SLiMS lain). Gunakan dengan risiko Anda sendiri.
+
+
 ## ✨ Fitur Utama
 
 *   **Laporan Jumlah Akses per Koleksi:** Menampilkan jumlah total akses untuk setiap koleksi file. Ini membantu Anda melihat koleksi mana yang paling populer.
