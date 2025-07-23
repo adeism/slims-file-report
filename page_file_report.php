@@ -170,7 +170,8 @@ function showFileAccessList($dbs, $page, $perPage) {
         echo '<tbody>';
         while ($row = $q->fetch_assoc()) {
             echo '<tr>';
-            echo '<td>' . strftime('%Y-%m-%d %H:%M:%S', strtotime($row['access_time'])) . '</td>';
+            // echo '<td>' . strftime('%Y-%m-%d %H:%M:%S', strtotime($row['access_time'])) . '</td>';
+            echo '<td>' . date('Y-m-d H:i:s', strtotime($row['access_time'])) . '</td>' // more compatible with php 8.2+
             echo '<td>' . $row['ip_address'] . '</td>';
             echo '<td>' . $row['file_title'] . '</td>';
             echo '<td>' . $row['file_name'] . '</td>';
