@@ -5,6 +5,7 @@ Plugin ini menampilkan laporan akses file yang berguna untuk menganalisis bagaim
 > ⚠️ **Disclaimer**  
 > JANGAN langsung pasang DI SLiMS Operasional (tes di PC/SLiMS lain). Gunakan dengan risiko Anda sendiri.
 
+> cara pasang plugin : [https://github.com/adeism/belajarslims/blob/main/belajar-pasang-plugin.md](https://github.com/adeism/belajarslims/blob/main/belajar-pasang-plugin.md)
 
 ## ✨ Fitur Utama
 
